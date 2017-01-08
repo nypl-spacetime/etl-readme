@@ -10,7 +10,12 @@ First, install `generate-etl-readme` as dependency:
 
 Then, the following line to the `scripts` section of the ETL script's `package.json:
 
+```js
+  "scripts": {
+    ...
     "readme": "spacetime-generate-etl-readme ./ -o README.md"
+  }
+```
 
 Generate a new `README.md` by running:
 
