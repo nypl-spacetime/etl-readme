@@ -1,6 +1,6 @@
 {
-  "name": "etl-readme",
-  "version": "0.0.1",
+  "name": "spacetime-etl-readme",
+  "version": "0.0.2",
   "main": "index.js",
   "bin": {
     "spacetime-etl-readme": "index.js"
