@@ -1,5 +1,5 @@
 {
-  "name": "generate-spacetime-etl-readme",
+  "name": "spacetime-generate-etl-readme",
   "version": "0.0.3",
   "main": "index.js",
   "bin": {

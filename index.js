@@ -6,8 +6,8 @@ const R = require('ramda')
 const etlPrefix = 'etl-'
 
 if (!argv._[0]) {
-  console.error(`Usage: etl-readme [-o file] /path/to/etl-script-dir/\n` +
-      `  -o    output file. if not given, etl-readme uses stdout`)
+  console.error(`Usage: spacetime-generate-etl-readme [-o file] /path/to/etl-script-dir/\n` +
+      `  -o    output file. if not given, spacetime-generate-etl-readme uses stdout`)
   process.exit(1)
 }
 
