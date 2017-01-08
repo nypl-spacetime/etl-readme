@@ -1,0 +1,19 @@
+{
+  "name": "etl-readme",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bin": {
+    "spacetime-etl-readme": "index.js"
+  },
+  "description": "Creates README markdown files for Space/Time ETL scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bert Spaan",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "ramda": "^0.23.0"
+  }
+}
