@@ -1,3 +1,3 @@
-# etl-readme
+# spacetime-generate-etl-readme
 
-Creates README markdown files for Space/Time ETL scripts
+Generates README markdown files for Space/Time ETL scripts

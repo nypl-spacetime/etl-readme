@@ -1,9 +1,9 @@
 {
-  "name": "spacetime-etl-readme",
-  "version": "0.0.2",
+  "name": "generate-spacetime-etl-readme",
+  "version": "0.0.3",
   "main": "index.js",
   "bin": {
-    "spacetime-etl-readme": "index.js"
+    "spacetime-generate-etl-readme": "index.js"
   },
   "description": "Creates README markdown files for Space/Time ETL scripts",
   "main": "index.js",
@@ -12,6 +12,10 @@
   },
   "author": "Bert Spaan",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nypl-spacetime/generate-etl-readme.git"
+  },
   "dependencies": {
     "minimist": "^1.2.0",
     "ramda": "^0.23.0"
