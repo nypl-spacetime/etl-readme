@@ -77,7 +77,7 @@ const rows = R.toPairs(table).map(titleize).filter((pair) => pair[0] && pair[1])
 const readme = `
 # Space/Time ETL module: ${dataset.title}
 
-[ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) module for NYPL's [NYC Space/Time Direcory](http://spacetime.nypl.org/). This Node.js module downloads, parses, and/or transforms ${dataset.title} data to a NYC Space/Time Directory dataset.
+[ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) module for NYPL's [NYC Space/Time Direcory](http://spacetime.nypl.org/). This Node.js module downloads, parses, and/or transforms ${dataset.title} data, and creates a NYC Space/Time Directory dataset.
 
 ## Details
 
