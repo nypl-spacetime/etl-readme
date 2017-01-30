@@ -69,16 +69,22 @@ const titleize = (pair) => ([
 ])
 
 const rows = R.toPairs(table).map(titleize).filter((pair) => pair[0] && pair[1]).map((row) => `
-    <tr>
-      <td>${row[0]}</td>
-      <td>${row[1]}</td>
-    </tr>`)
+  <tr>
+    <td>${row[0]}</td>
+    <td>${row[1]}</td>
+  </tr>`)
+
+let extraReadme = ''
+const extraReadmePath = path.join(dir, `${etlId}.md`)
+if (fs.existsSync(extraReadmePath)) {
+  extraReadme = '\n' + fs.readFileSync(extraReadmePath, 'utf8').trim() + '\n'
+}
 
 const readme = `
 # Space/Time ETL module: ${dataset.title}
 
 [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) module for NYPL's [NYC Space/Time Direcory](http://spacetime.nypl.org/). This Node.js module downloads, parses, and/or transforms ${dataset.title} data, and creates a NYC Space/Time Directory dataset.
-
+${extraReadme}
 ## Details
 
 <table>

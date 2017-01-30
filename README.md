@@ -20,3 +20,7 @@ Then, the following line to the `scripts` section of the ETL script's `package.j
 Generate a new `README.md` by running:
 
     npm run readme
+
+## Including extra content README
+
+To include extra content in the generated `README.md` file, add this content to `<datasetId>.md` in the dataset's directory.
