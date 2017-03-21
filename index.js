@@ -69,10 +69,10 @@ const titleize = (pair) => ([
 ])
 
 const rows = R.toPairs(table).map(titleize).filter((pair) => pair[0] && pair[1]).map((row) => `
-  <tr>
-    <td>${row[0]}</td>
-    <td>${row[1]}</td>
-  </tr>`)
+<tr>
+<td>${row[0]}</td>
+<td>${row[1]}</td>
+</tr>`)
 
 let extraReadme = ''
 const extraReadmePath = path.join(dir, `${etlId}.md`)
@@ -88,9 +88,9 @@ ${extraReadme}
 ## Details
 
 <table>
-  <tbody>
+<tbody>
 ${rows.join('\n')}
-  </tbody>
+</tbody>
 </table>
 
 ## Available steps
