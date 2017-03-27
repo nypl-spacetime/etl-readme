@@ -20,7 +20,7 @@ Then, the following line to the `scripts` section of the ETL script's `package.j
 ```js
   "scripts": {
     ...
-    "readme": "spacetime-generate-etl-readme ./ -o README.md"
+    "readme": "spacetime-generate-etl-readme -o README.md ./"
   }
 ```
 
