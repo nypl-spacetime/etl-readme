@@ -1,6 +1,13 @@
 # generate-etl-readme
 
-Generates README markdown files for Space/Time ETL scripts.
+Generates Markdown README files for [NYC Space/Time Directory](http://spacetime.nypl.org/)'s ETL modules.
+
+## Examples
+
+- https://github.com/nypl-spacetime/etl-mapwarper
+- https://github.com/nypl-spacetime/etl-building-inspector
+- https://github.com/nypl-spacetime/etl-spacetime-graph
+- https://github.com/nypl-spacetime/etl-group-maps
 
 ## Usage
 
@@ -21,6 +28,10 @@ Generate a new `README.md` by running:
 
     npm run readme
 
-## Including extra content README
+## Including extra, module-specific content to a README file
 
-To include extra content in the generated `README.md` file, add this content to `<datasetId>.md` in the dataset's directory.
+To include extra content in the generated `README.md` file, add this content to `<datasetId>.md` in the module's directory.
+
+## See also
+
+- [NYC Space/Time Directory ETL tool](https://github.com/nypl-spacetime/spacetime-etl)
