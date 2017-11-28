@@ -1,6 +1,6 @@
 # generate-etl-readme
 
-Generates Markdown README files for [NYC Space/Time Directory](http://spacetime.nypl.org/)'s ETL modules.
+Node.js module to generate Markdown README files for [NYC Space/Time Directory](http://spacetime.nypl.org/)’s ETL modules.
 
 ## Examples
 
@@ -15,13 +15,13 @@ First, install `generate-etl-readme` as dependency:
 
     npm install --save-dev spacetime-generate-etl-readme
 
-Then, the following line to the `scripts` section of the ETL script's `package.json:
+Then, the following line to the `scripts` section of the ETL script’s `package.json`:
 
 ```js
-  "scripts": {
-    ...
-    "readme": "spacetime-generate-etl-readme -o README.md ./"
-  }
+"scripts": {
+  ...
+  "readme": "spacetime-generate-etl-readme -o README.md ./"
+}
 ```
 
 Generate a new `README.md` by running:

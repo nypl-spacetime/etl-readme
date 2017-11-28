@@ -1,11 +1,11 @@
 {
-  "name": "spacetime-generate-etl-readme",
-  "version": "0.2.0",
+  "name": "@spacetime/generate-etl-readme",
+  "version": "0.4.0",
   "main": "index.js",
   "bin": {
     "spacetime-generate-etl-readme": "index.js"
   },
-  "description": "Creates README markdown files for Space/Time ETL scripts",
+  "description": "Creates README markdown files for NYC Space/Time Directory ETL scripts",
   "scripts": {
     "test": "standard"
   },
